@@ -11,6 +11,6 @@ const args = process.argv.slice(2);
 // }
 console.log(args)
 const somelang = franc(args.toString())
-console.log(somelang)
-// console.log(langs.codes(somelang));
+console.log(somelang);
+console.log(langs.where("2", somelang)['name']);
 
